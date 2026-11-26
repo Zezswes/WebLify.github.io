@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08070d">
+  <meta name="description" content="WebLify — nowoczesne strony internetowe i projekty dopasowane do Twoich potrzeb.">
+  <title>WebLify — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="WebLify — strona główna">
+      <span class="cloud-logo" aria-hidden="true">☁</span>
+      <span>Web<span>Lify</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Otwórz menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a class="active" href="#home">Strona główna</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">Oferta</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+    <a class="discord-button" href="https://dc.gg/weblify" target="_blank" rel="noopener">
+      <span class="discord-mark">◉</span> Dołącz na Discord <span>›</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> Portfolio</div>
+        <h1>Web<span>Lify</span></h1>
+        <h2>Twórz z nami<span>!</span></h2>
+        <div class="swoosh"></div>
+        <p>Poznaj nasze projekty i zobacz,<br class="desktop-break"> co możemy dla Ciebie stworzyć!</p>
+        <a class="outline-button" href="#portfolio">Nasze projekty <span>⌄</span></a>
+      </div>
+      <div class="hero-visual">
+        <div class="cloud cloud-top">☁</div>
+        <div class="browser-window">
+          <div class="browser-dots"><i></i><i></i><i></i></div>
+          <div class="browser-placeholder">
+            <span class="image-icon">▧</span>
+            <span>Twoja kolejna strona</span>
+          </div>
+        </div>
+        <div class="cloud cloud-bottom">☁</div>
+        <span class="spark spark-one">✦</span>
+        <span class="spark spark-two">✦</span>
+      </div>
+    </section>
+
+    <section class="portfolio section-wrap" id="portfolio">
+      <div class="section-heading">
+        <div class="heading-cloud">☁</div>
+        <h2>Nasze <span>projekty</span></h2>
+        <p>Sprawdź przykładowe realizacje naszych usług!</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-image"><img data-project-image="1" alt="Projekt WebLify 1"><div class="image-fallback">01</div></div>
+          <div class="project-info"><span>PROJEKT 01</span><h3>Projekt pierwszy</h3></div>
+        </article>
+        <article class="project-card">
+          <div class="project-image"><img data-project-image="2" alt="Projekt WebLify 2"><div class="image-fallback">02</div></div>
+          <div class="project-info"><span>PROJEKT 02</span><h3>Projekt drugi</h3></div>
+        </article>
+        <article class="project-card">
+          <div class="project-image"><img data-project-image="3" alt="Projekt WebLify 3"><div class="image-fallback">03</div></div>
+          <div class="project-info"><span>PROJEKT 03</span><h3>Projekt trzeci</h3></div>
+        </article>
+        <article class="project-card">
+          <div class="project-image"><img data-project-image="4" alt="Projekt WebLify 4"><div class="image-fallback">04</div></div>
+          <div class="project-info"><span>PROJEKT 04</span><h3>Projekt czwarty</h3></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="about-icon">✦</div>
+      <div><h2>Pomysł. Projekt. <span>WebLify.</span></h2><p>Tworzymy nowoczesne strony, które dobrze wyglądają i są wygodne w użyciu.</p></div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="contact-cloud">☁</div>
+      <div class="contact-copy"><h2>Masz <span>pomysł?</span></h2><p>Skontaktuj się z nami i stwórz coś wyjątkowego!</p></div>
+      <div class="contact-action"><a class="discord-button filled" href="https://dc.gg/weblify" target="_blank" rel="noopener"><span class="discord-mark">◉</span> Dołącz na Discord <span>›</span></a></div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="cloud-logo">☁</span><span>Web<span>Lify</span></span></a><p>© <span id="year"></span> WebLify. Wszystkie prawa zastrzeżone.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
